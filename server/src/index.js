@@ -4,9 +4,10 @@ const axios = require("axios");
 
 const app = express();
 
-// Enable cors at the server side
+// Enable cors at the server side. 
+
 const corsOption = {
-    origin: ['http://localhost:5000'],
+    origin: ['http://localhost:3000'],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE"],
 }
